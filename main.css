@@ -1,1 +1,7 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+body .imgbox img {
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */
