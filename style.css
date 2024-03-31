@@ -312,4 +312,41 @@
 #doggerblog .textbox p, #doggerblog .textbox h4 {
   font-size: 18px;
   margin: 20px 0 0;
+}
+
+#ourservices {
+  padding: 40px 0px;
+}
+#ourservices .wid {
+  width: 580px;
+}
+#ourservices .wid .bigicon {
+  color: #d4cece;
+}
+#ourservices .wid .bigicon i {
+  font-size: 30px;
+  margin: 15px 0;
+}
+#ourservices h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#ourservices h3 {
+  font-size: 20px;
+  color: #c6c6c6;
+  margin: 30px 0;
+}
+#ourservices .textbox {
+  padding: 40px;
+}
+#ourservices .textbox h2 {
+  font-size: 25px;
+  color: #757575;
+  margin: 20px 0 0;
+}
+#ourservices .textbox h3 {
+  margin: 30px 0 0;
+}
+#ourservices .textbox .icon {
+  font-size: 60px;
 }/*# sourceMappingURL=style.css.map */
