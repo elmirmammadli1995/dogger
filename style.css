@@ -271,4 +271,45 @@
 }
 #questions .icon i {
   font-size: 22px;
+}
+
+#doggerblog {
+  padding: 40px 0;
+}
+#doggerblog .wid {
+  width: 580px;
+}
+#doggerblog .wid .icon {
+  color: #d4cece;
+}
+#doggerblog .wid .icon i {
+  font-size: 30px;
+  margin: 15px 0;
+}
+#doggerblog h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#doggerblog h3 {
+  font-size: 20px;
+  margin: 30px 0 60px;
+}
+#doggerblog .box {
+  display: flex;
+}
+#doggerblog .textbox {
+  margin: 0 0 0 20px;
+}
+#doggerblog .textbox h2 {
+  font-size: 22px;
+}
+#doggerblog .textbox h4 {
+  color: #aba8a8;
+}
+#doggerblog .textbox p {
+  color: #8f8686;
+}
+#doggerblog .textbox p, #doggerblog .textbox h4 {
+  font-size: 18px;
+  margin: 20px 0 0;
 }/*# sourceMappingURL=style.css.map */
