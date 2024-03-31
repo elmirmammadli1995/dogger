@@ -2,6 +2,9 @@ body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
+body .imgbox {
+  overflow: hidden;
+}
 body .imgbox img {
   width: 100%;
 }
@@ -25,7 +28,43 @@ body .imgbox img {
 }
 #carefor .imgbox {
   width: 500px;
+  border-radius: 50px;
 }
+@media screen and (max-width: 768px) {
+  #carefor .textbox {
+    text-align: center;
+  }
+  #carefor .textbox h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  #carefor .textbox h4 {
+    font-size: 15px;
+    margin: 30px 0 50px;
+  }
+  #carefor .imgbox {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #carefor .textbox {
+    width: 100%;
+    padding: 0 40px;
+    text-align: center;
+  }
+  #carefor .textbox h1 {
+    font-size: 50px;
+    margin: 0;
+  }
+  #carefor .textbox h4 {
+    font-size: 18px;
+    margin: 40px 0;
+  }
+  #carefor .imgbox {
+    width: 400px;
+  }
+}
+
 #welcome {
   padding: 40px 0;
 }
