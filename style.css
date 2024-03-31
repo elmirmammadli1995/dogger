@@ -1,3 +1,11 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+body .imgbox img {
+  width: 100%;
+}
+
 #carefor {
   padding: 40px 0;
 }
@@ -18,7 +26,6 @@
 #carefor .imgbox {
   width: 500px;
 }
-
 #welcome {
   padding: 40px 0;
 }

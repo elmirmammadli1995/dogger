@@ -2,6 +2,9 @@ body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
+body .imgbox {
+  overflow: hidden;
+}
 body .imgbox img {
   width: 100%;
 }/*# sourceMappingURL=main.css.map */
