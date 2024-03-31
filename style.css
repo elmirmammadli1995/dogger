@@ -59,4 +59,49 @@
   border-radius: 20px;
   background-color: #a7b59f;
   color: white;
+}
+
+#aboutus {
+  padding: 40px 0;
+}
+#aboutus .textbox {
+  padding: 0 100px;
+}
+#aboutus .textbox .bigicon {
+  color: #d4cece;
+}
+#aboutus .textbox .bigicon i {
+  font-size: 30px;
+  margin: 15px 0 15px 15px;
+}
+#aboutus .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#aboutus .textbox h3, #aboutus .textbox p {
+  color: #a8a8a8;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 20px 0 0;
+  line-height: 1.6;
+}
+#aboutus .textbox p {
+  font-size: 18px;
+  color: #949494;
+  line-height: 1.4;
+}
+#aboutus .textbox li {
+  display: flex;
+  padding: 20px 0 0 0;
+}
+#aboutus .textbox li .icon {
+  padding: 0 15px 0 0;
+  color: #d4cece;
+}
+#aboutus .textbox h4 {
+  font-size: 20px;
+  color: #949494;
+}
+#aboutus .imgbox {
+  width: 450px;
 }/*# sourceMappingURL=style.css.map */
