@@ -17,4 +17,46 @@
 }
 #carefor .imgbox {
   width: 500px;
+}
+
+#welcome {
+  padding: 40px 0;
+}
+#welcome .wid {
+  width: 580px;
+}
+#welcome .wid .icon {
+  color: #d4cece;
+}
+#welcome .wid .icon i {
+  font-size: 30px;
+  margin: 15px 0;
+}
+#welcome .textbox {
+  padding: 80px;
+}
+#welcome .textbox h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+#welcome .textbox h3 {
+  color: #868686;
+  margin: 10px 0 30px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+#welcome .textbox h2, #welcome .textbox h6 {
+  margin: 15px 0px;
+}
+#welcome .textbox h2 {
+  font-size: 33px;
+}
+#welcome .textbox h6 {
+  font-size: 18px;
+}
+#welcome .textbox .btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #a7b59f;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
