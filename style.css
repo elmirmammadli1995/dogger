@@ -155,4 +155,66 @@
 }
 #ourtrainers .wid {
   width: 580px;
+}
+
+#pricingtable {
+  padding: 40px 0;
+}
+#pricingtable .textbox {
+  width: 580px;
+  text-align: center;
+}
+#pricingtable .textbox .bigicon {
+  color: #d4cece;
+}
+#pricingtable .textbox .bigicon i {
+  font-size: 30px;
+  margin: 15px 0;
+}
+#pricingtable .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#pricingtable .textbox h5 {
+  font-weight: 200px;
+  font-size: 20px;
+  color: #000000;
+  margin: 20px 0 50px;
+}
+#pricingtable .box {
+  width: 340px;
+  color: #fff;
+  background-color: #708f97;
+  padding: 50px 30px;
+  text-align: center;
+}
+#pricingtable .box h2 {
+  font-size: 25px;
+}
+#pricingtable .box h3 {
+  font-size: 30px;
+  margin: 20px 0 0;
+}
+#pricingtable .box li {
+  display: flex;
+  justify-content: flex-start;
+  margin: 25px 0 0 15px;
+  text-align: start;
+}
+#pricingtable .box li h4 {
+  font-size: 18px;
+  margin: 0 0 10px 15px;
+}
+#pricingtable .box .btn {
+  padding: 10px 35px;
+  margin: 30px 0 0;
+  border-radius: 30px;
+  background-color: #2b383c;
+  color: white;
+}
+#pricingtable .PREMIUM-color {
+  background-color: #2b383c;
+}
+#pricingtable .PREMIUM-color .btn {
+  background-color: #708f97;
 }/*# sourceMappingURL=style.css.map */
