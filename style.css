@@ -217,4 +217,58 @@
 }
 #pricingtable .PREMIUM-color .btn {
   background-color: #708f97;
+}
+
+#questions {
+  padding: 40px 0px;
+}
+#questions .wid {
+  width: 580px;
+}
+#questions .wid .bigicon {
+  color: #d4cece;
+}
+#questions .wid .bigicon i {
+  font-size: 30px;
+  margin: 15px 0;
+}
+#questions .wid h1 {
+  font-weight: 700px;
+  font-size: 36px;
+  margin: 15px 0;
+}
+#questions .wid h3 {
+  font-size: 20px;
+  margin: 0 0 40px;
+  line-height: 1.4;
+}
+#questions .textbox {
+  padding: 0 70px;
+}
+#questions .textbox h2, #questions .textbox h4 {
+  font-size: 25px;
+  margin: 0 0 0 10px;
+  color: #717171;
+}
+#questions .textbox .minibox {
+  display: flex;
+  margin: 20px 0 0 0;
+}
+#questions .textbox .minibox h2 {
+  margin: 0 0 0 10px;
+}
+#questions .textbox p {
+  font-size: 20px;
+  margin: 30px 0 32px;
+  color: #949494;
+}
+#questions .textbox li {
+  display: flex;
+  margin: 30px 0 0;
+}
+#questions .icon {
+  color: #d4cece;
+}
+#questions .icon i {
+  font-size: 22px;
 }/*# sourceMappingURL=style.css.map */
