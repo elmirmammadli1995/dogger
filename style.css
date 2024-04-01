@@ -13,7 +13,8 @@ body .imgbox img {
   padding: 40px 0;
 }
 #carefor .textbox {
-  padding: 0 100px;
+  text-align: center;
+  padding: 0 0px;
 }
 #carefor .textbox h1 {
   font-weight: 700;
@@ -30,12 +31,25 @@ body .imgbox img {
   width: 500px;
   border-radius: 50px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #carefor .textbox {
-    text-align: center;
+    padding: 0;
   }
   #carefor .textbox h1 {
-    font-size: 30px;
+    font-size: 45px;
+    margin: 0;
+  }
+  #carefor .textbox h4 {
+    font-size: 20px;
+    margin: 30px 0;
+  }
+  #carefor .imgbox {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #carefor .textbox h1 {
+    font-size: 25px;
     margin: 0;
   }
   #carefor .textbox h4 {
@@ -47,13 +61,8 @@ body .imgbox img {
   }
 }
 @media screen and (max-width: 576px) {
-  #carefor .textbox {
-    width: 100%;
-    padding: 0 40px;
-    text-align: center;
-  }
   #carefor .textbox h1 {
-    font-size: 50px;
+    font-size: 40px;
     margin: 0;
   }
   #carefor .textbox h4 {
@@ -61,7 +70,7 @@ body .imgbox img {
     margin: 40px 0;
   }
   #carefor .imgbox {
-    width: 400px;
+    width: 350px;
   }
 }
 
