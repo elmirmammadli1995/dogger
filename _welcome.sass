@@ -1,14 +1,17 @@
 #welcome
-    padding: 40px 0
+    padding: 80px 0
     .wid
         width: 580px
         .icon
-            color: #d4cece
             i
                 font-size: 30px
+                color: #d4cece
                 margin: 15px 0
+    .imgbox
+        border-radius: 40px
     .textbox
         padding: 80px
+        text-align: start
         h1
             font-weight: 700
             font-size: 30px
@@ -28,3 +31,27 @@
             border-radius: 20px
             background-color: #a7b59f
             color: #ffff
+
+    @media screen and ( max-width: 576px )
+        .wid
+            padding: 0
+            .icon
+                font-size: 60px
+                color: #2a4d6b
+            h1
+                font-size: 25px
+                padding: 20px 0 30px
+            h3
+                font-size: 25px
+                margin: 0 0 30px
+        .textbox
+            padding: 55px 0 0
+            text-align: center
+            h2
+                font-size: 36px
+                margin: 0
+            h6
+                font-size: 22px
+                margin: 25px 0 20px
+        .imgbox
+            margin-top: 35px
