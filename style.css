@@ -713,8 +713,9 @@ body .imgbox img {
   color: #757575;
   margin: 20px 0 0;
 }
-#ourservices .textbox h3 {
-  margin: 30px 0 0;
+#ourservices .textbox h4 {
+  font-size: 18px;
+  margin: 20px 0 0;
 }
 #ourservices .textbox .icon {
   font-size: 60px;
@@ -728,5 +729,9 @@ body .imgbox img {
   }
   #ourservices .textbox {
     text-align: center;
+  }
+  #ourservices .textbox h4 {
+    font-size: 16px;
+    margin: 20px 0 0;
   }
 }/*# sourceMappingURL=style.css.map */
