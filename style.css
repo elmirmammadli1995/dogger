@@ -537,7 +537,7 @@ body .imgbox img {
 }
 
 #questions {
-  padding: 40px 0px;
+  padding: 60px 0px;
 }
 #questions .wid {
   width: 580px;
@@ -588,6 +588,45 @@ body .imgbox img {
 }
 #questions .icon i {
   font-size: 22px;
+}
+#questions .imgbox {
+  border-radius: 50px;
+}
+@media screen and (max-width: 992px) {
+  #questions .wid h1 {
+    font-size: 33px;
+  }
+  #questions .wid h3 {
+    font-size: 21px;
+  }
+  #questions .textbox {
+    padding: 0 20px 60px;
+  }
+  #questions .textbox p {
+    font-size: 18px;
+    margin: 14px 0;
+  }
+  #questions .textbox h2, #questions .textbox h4 {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #questions .wid h1 {
+    font-size: 30px;
+  }
+  #questions .wid h3 {
+    font-size: 17px;
+  }
+  #questions .textbox {
+    padding: 0 20px 40px 20px;
+  }
+  #questions .textbox p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  #questions .textbox h2, #questions .textbox h4 {
+    font-size: 20px;
+  }
 }
 
 #doggerblog {
