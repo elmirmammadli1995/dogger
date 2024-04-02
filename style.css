@@ -216,7 +216,8 @@ body .imgbox img {
 }
 
 #aboutus {
-  padding: 40px 0;
+  padding: 60px 0;
+  background-color: #dbefd6;
 }
 #aboutus .textbox {
   padding: 0 100px;
@@ -236,7 +237,7 @@ body .imgbox img {
   color: #a8a8a8;
   font-weight: 100;
   font-size: 20px;
-  margin: 20px 0 0;
+  margin-top: 20px;
   line-height: 1.6;
 }
 #aboutus .textbox p {
@@ -246,7 +247,7 @@ body .imgbox img {
 }
 #aboutus .textbox li {
   display: flex;
-  padding: 20px 0 0 0;
+  padding-top: 20px;
 }
 #aboutus .textbox li .icon {
   padding: 0 15px 0 0;
@@ -258,6 +259,70 @@ body .imgbox img {
 }
 #aboutus .imgbox {
   width: 450px;
+  border-radius: 50px;
+}
+@media screen and (max-width: 992px) {
+  #aboutus .textbox {
+    text-align: center;
+    padding: 0;
+  }
+  #aboutus .textbox h1 {
+    font-size: 33px;
+  }
+  #aboutus .textbox h3 {
+    font-size: 22px;
+  }
+  #aboutus .textbox p {
+    font-size: 21px;
+  }
+  #aboutus .textbox ul {
+    padding: 0 100px 40px 100px;
+  }
+  #aboutus .imgbox {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #aboutus .textbox {
+    text-align: center;
+    padding: 0;
+  }
+  #aboutus .textbox h1 {
+    font-size: 33px;
+  }
+  #aboutus .textbox h3 {
+    font-size: 22px;
+  }
+  #aboutus .textbox p {
+    font-size: 21px;
+  }
+  #aboutus .textbox ul {
+    padding: 0 100px 40px 100px;
+  }
+  #aboutus .imgbox {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #aboutus .textbox {
+    text-align: center;
+    padding: 0;
+  }
+  #aboutus .textbox h1 {
+    font-size: 30px;
+  }
+  #aboutus .textbox h3 {
+    font-size: 18px;
+  }
+  #aboutus .textbox p {
+    font-size: 17px;
+  }
+  #aboutus .textbox ul {
+    padding: 0 30px 40px 30px;
+  }
+  #aboutus .imgbox {
+    width: 300px;
+  }
 }
 
 #ourtrainers {
