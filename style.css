@@ -386,6 +386,10 @@ body .imgbox img {
   width: 580px;
 }
 @media screen and (max-width: 992px) {
+  #ourtrainers .box {
+    padding: 40px 0;
+    margin: 0;
+  }
   #ourtrainers .box h4 {
     font-size: 17px;
   }
