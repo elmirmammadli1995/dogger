@@ -677,7 +677,7 @@ body .imgbox img {
     font-size: 17px;
   }
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
   #doggerblog .box {
     padding: 40px 0;
   }
