@@ -630,7 +630,7 @@ body .imgbox img {
 }
 
 #doggerblog {
-  padding: 40px 0;
+  padding: 60px 0;
 }
 #doggerblog .wid {
   width: 580px;
@@ -649,6 +649,25 @@ body .imgbox img {
 #doggerblog h3 {
   font-size: 20px;
   margin: 30px 0 60px;
+}
+#doggerblog .box {
+  display: flex;
+}
+#doggerblog .textbox {
+  margin: 0 0 0 20px;
+}
+#doggerblog .textbox h2 {
+  font-size: 22px;
+}
+#doggerblog .textbox h4 {
+  color: #aba8a8;
+}
+#doggerblog .textbox p {
+  color: #8f8686;
+}
+#doggerblog .textbox p, #doggerblog .textbox h4 {
+  font-size: 18px;
+  margin: 20px 0 0;
 }
 @media screen and (max-width: 576px) {
   #doggerblog .wid h1 {
