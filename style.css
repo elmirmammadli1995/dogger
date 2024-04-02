@@ -165,8 +165,7 @@ body .imgbox img {
     margin: 0;
   }
   #welcome .textbox {
-    margin: 55px 0 0;
-    padding: 0;
+    padding: 50px 0;
     text-align: center;
   }
   #welcome .textbox h2 {
@@ -180,6 +179,7 @@ body .imgbox img {
   #welcome .minibox {
     display: flex;
     justify-content: center;
+    padding: 50px 0;
   }
   #welcome .minibox .imgbox {
     width: 500px;
@@ -199,8 +199,7 @@ body .imgbox img {
     margin: 0;
   }
   #welcome .textbox {
-    margin: 55px 0 0;
-    padding: 0;
+    padding: 50px 0;
     text-align: center;
   }
   #welcome .textbox h2 {
@@ -210,6 +209,9 @@ body .imgbox img {
   #welcome .textbox h6 {
     font-size: 22px;
     margin: 25px 0 20px;
+  }
+  #welcome .minibox {
+    padding: 50px 0;
   }
 }
 
