@@ -326,7 +326,7 @@ body .imgbox img {
 }
 
 #ourtrainers {
-  padding: 40px 0;
+  padding: 60px 0;
 }
 #ourtrainers .bigicon {
   color: #d4cece;
@@ -349,19 +349,23 @@ body .imgbox img {
 #ourtrainers .box {
   margin: 0 5px;
 }
+#ourtrainers .box .imgbox {
+  border-radius: 50px;
+}
 #ourtrainers .box .textbox {
+  text-align: start;
   padding: 15px;
 }
-#ourtrainers .box h2 {
+#ourtrainers .box .textbox h2 {
   font-weight: 300;
   font-size: 25px;
   padding: 20px 0 0;
 }
-#ourtrainers .box ul {
+#ourtrainers .box .textbox ul {
   display: flex;
   flex-direction: row;
 }
-#ourtrainers .box ul li {
+#ourtrainers .box .textbox ul li {
   margin: 0 10px;
   background-color: #d4cece;
   border-radius: 50%;
@@ -369,11 +373,19 @@ body .imgbox img {
   width: 10px;
   height: 10px;
 }
-#ourtrainers .box ul li .icon {
+#ourtrainers .box .textbox ul li .icon {
   margin: -7px;
 }
 #ourtrainers .wid {
   width: 580px;
+}
+@media screen and (max-width: 576px) {
+  #ourtrainers .box .imgbox {
+    width: 300px;
+  }
+  #ourtrainers .box .textbox {
+    text-align: center;
+  }
 }
 
 #pricingtable {
