@@ -145,7 +145,7 @@ body .imgbox img {
   #welcome .minibox {
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 50px 0;
   }
   #welcome .minibox .imgbox {
     width: 500px;
