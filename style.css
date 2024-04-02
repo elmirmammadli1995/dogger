@@ -669,6 +669,19 @@ body .imgbox img {
   font-size: 18px;
   margin: 20px 0 0;
 }
+@media screen and (max-width: 576px) {
+  #doggerblog .wid h1 {
+    font-size: 30px;
+  }
+  #doggerblog .wid h3 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #doggerblog .box {
+    padding: 40px 0;
+  }
+}
 
 #ourservices {
   padding: 40px 0px;
