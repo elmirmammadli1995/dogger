@@ -448,7 +448,7 @@ body .imgbox img {
 }
 
 #pricingtable {
-  padding: 40px 0;
+  padding: 60px 0;
 }
 #pricingtable .textbox {
   width: 580px;
@@ -473,10 +473,11 @@ body .imgbox img {
 }
 #pricingtable .box {
   width: 340px;
-  color: #fff;
+  color: white;
   background-color: #708f97;
   padding: 50px 30px;
   text-align: center;
+  border-radius: 20px;
 }
 #pricingtable .box h2 {
   font-size: 25px;
@@ -507,6 +508,22 @@ body .imgbox img {
 }
 #pricingtable .PREMIUM-color .btn {
   background-color: #708f97;
+}
+@media screen and (max-width: 992px) {
+  #pricingtable .texbox h1 {
+    font-size: 30px;
+  }
+  #pricingtable .texbox h5 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #pricingtable .textbox h1 {
+    font-size: 25px;
+  }
+  #pricingtable .textbox h5 {
+    font-size: 16px;
+  }
 }
 
 #questions {
