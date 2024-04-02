@@ -261,10 +261,10 @@ body .imgbox img {
   width: 450px;
   border-radius: 50px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
   #aboutus .textbox {
     text-align: center;
-    padding: 0;
+    padding: 0 50px 50px 50px;
   }
   #aboutus .textbox h1 {
     font-size: 33px;
@@ -273,10 +273,11 @@ body .imgbox img {
     font-size: 22px;
   }
   #aboutus .textbox p {
-    font-size: 21px;
+    font-size: 18px;
   }
-  #aboutus .textbox ul {
-    padding: 0 20px;
+  #aboutus .textbox .minibox {
+    display: flex;
+    justify-content: center;
   }
   #aboutus .imgbox {
     width: 400px;
@@ -285,7 +286,7 @@ body .imgbox img {
 @media screen and (max-width: 768px) {
   #aboutus .textbox {
     text-align: center;
-    padding: 0;
+    padding: 0 50px 50px 50px;
   }
   #aboutus .textbox h1 {
     font-size: 33px;
@@ -296,8 +297,9 @@ body .imgbox img {
   #aboutus .textbox p {
     font-size: 21px;
   }
-  #aboutus .textbox ul {
-    padding: 0 100px 40px 100px;
+  #aboutus .textbox .minibox {
+    display: flex;
+    justify-content: center;
   }
   #aboutus .imgbox {
     width: 400px;
@@ -306,7 +308,7 @@ body .imgbox img {
 @media screen and (max-width: 576px) {
   #aboutus .textbox {
     text-align: center;
-    padding: 0;
+    padding: 0 50px 50px 50px;
   }
   #aboutus .textbox h1 {
     font-size: 30px;
@@ -317,8 +319,12 @@ body .imgbox img {
   #aboutus .textbox p {
     font-size: 17px;
   }
-  #aboutus .textbox ul {
-    padding: 0 30px 40px 30px;
+  #aboutus .textbox .minibox {
+    display: flex;
+    justify-content: center;
+  }
+  #aboutus .textbox .minibox ul h4 {
+    font-size: 17px;
   }
   #aboutus .imgbox {
     width: 300px;

@@ -34,46 +34,53 @@
         width: 450px
         border-radius: 50px
 
-    @media screen and ( max-width: 992px )
+    @media screen and ( max-width: 1200px )
         .textbox
             text-align: center
-            padding: 0
+            padding: 0 50px 50px 50px
             h1
                 font-size: 33px
             h3
                 font-size: 22px
             p
-                font-size: 21px
-            ul
-                padding: 0 20px
+                font-size: 18px
+            .minibox
+                display: flex
+                justify-content: center
         .imgbox
             width: 400px
 
     @media screen and ( max-width: 768px )
         .textbox
             text-align: center
-            padding: 0
+            padding: 0 50px 50px 50px
             h1
                 font-size: 33px
             h3
                 font-size: 22px
             p
                 font-size: 21px
-            ul
-                padding: 0 100px 40px 100px
+            .minibox
+                display: flex
+                justify-content: center
         .imgbox
             width: 400px
+            
     @media screen and ( max-width: 576px )
         .textbox
             text-align: center
-            padding: 0
+            padding: 0 50px 50px 50px
             h1
                 font-size: 30px
             h3
                 font-size: 18px
             p
                 font-size: 17px
-            ul
-                padding: 0 30px 40px 30px
+            .minibox
+                display: flex
+                justify-content: center
+                ul
+                    h4
+                        font-size: 17px
         .imgbox
             width: 300px
