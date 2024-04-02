@@ -379,9 +379,55 @@ body .imgbox img {
 #ourtrainers .wid {
   width: 580px;
 }
+@media screen and (max-width: 992px) {
+  #ourtrainers .box h4 {
+    font-size: 17px;
+  }
+  #ourtrainers .box .minibox {
+    display: flex;
+    justify-content: center;
+  }
+  #ourtrainers .box .textbox {
+    text-align: center;
+  }
+  #ourtrainers .box .textbox ul {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  #ourtrainers h1 {
+    font-size: 34px;
+  }
+  #ourtrainers h3 {
+    font-size: 18px;
+  }
+  #ourtrainers h4 {
+    font-size: 17px;
+  }
+  #ourtrainers .box {
+    padding: 40px 0;
+    margin: 0;
+  }
+  #ourtrainers .box .minibox {
+    display: flex;
+    justify-content: center;
+  }
+  #ourtrainers .box .minibox .imgbox {
+    width: 400px;
+  }
+  #ourtrainers .box .textbox {
+    text-align: center;
+    padding: 0;
+  }
+  #ourtrainers .box .textbox ul {
+    display: flex;
+    justify-content: center;
+  }
+}
 @media screen and (max-width: 576px) {
   #ourtrainers .box {
-    padding: 30px 0;
+    padding: 40px 0;
     margin: 0;
   }
   #ourtrainers .box .minibox {
@@ -393,7 +439,7 @@ body .imgbox img {
   }
   #ourtrainers .box .textbox {
     text-align: center;
-    padding: 25px 15px;
+    padding: 0;
   }
   #ourtrainers .box .textbox ul {
     display: flex;
