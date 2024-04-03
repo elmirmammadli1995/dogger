@@ -1,5 +1,6 @@
 #doggerblog
     padding: 60px 0
+    line-height: 1.4
     .wid
         width: 580px
         .icon
@@ -14,7 +15,8 @@
         font-size: 20px
         margin: 30px 0 60px
     .box
-        display: flex
+        .imgbox
+            border-radius: 40px
     .textbox
         margin: 0 0 0 20px
         h2
@@ -27,13 +29,53 @@
             font-size: 18px
             margin: 20px 0 0
 
+    @media screen and ( min-width: 992px )
+        .med
+            .box
+                display: flex
+                .imgbox
+                    width: 250px
+
     @media screen and ( max-width: 576px )
         .wid
             h1
                 font-size: 30px
             h3
                 font-size: 17px
+                margin: 30px 0 0
+        .box
+            .minibox
+                display: flex
+                justify-content: center
+                .imgbox
+                    width: 300px
+            .textbox
+                text-align: center
+                padding-top: 15px
+                margin: 0
+                h2
+                    font-size: 19px
+                h4
+                    margin: 10px 0 0
 
     @media screen and ( max-width: 992px )
+        .wid
+            h1
+                font-size: 33px
+            h3
+                font-size: 20px
+                margin: 20px 0 15px
         .box
-            padding: 40px 0
+            .minibox
+                display: flex
+                justify-content: center
+                .imgbox
+                    width: 400px
+            .textbox
+                text-align: center
+                padding: 15px 0
+                margin: 0
+                h2
+                    font-size: 19px
+                h4
+                    margin: 10px 0 0
