@@ -649,6 +649,7 @@ body .imgbox img {
   margin: 30px 0 60px;
 }
 #doggerblog .box .imgbox {
+  width: 150px;
   border-radius: 40px;
 }
 #doggerblog .textbox {
@@ -667,32 +668,33 @@ body .imgbox img {
   font-size: 18px;
   margin: 20px 0 0;
 }
-@media screen and (min-width: 992px) {
-  #doggerblog .med .box {
+@media screen and (min-width: 1200px) {
+  #doggerblog .box {
     display: flex;
+    flex-direction: row;
   }
-  #doggerblog .med .box .imgbox {
+  #doggerblog .box .imgbox {
     width: 250px;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1200px) {
   #doggerblog .wid h1 {
-    font-size: 30px;
+    font-size: 33px;
   }
   #doggerblog .wid h3 {
-    font-size: 17px;
-    margin: 30px 0 0;
+    font-size: 20px;
+    margin: 20px 0 15px;
   }
   #doggerblog .box .minibox {
     display: flex;
     justify-content: center;
   }
   #doggerblog .box .minibox .imgbox {
-    width: 300px;
+    width: 380px;
   }
   #doggerblog .box .textbox {
     text-align: center;
-    padding-top: 15px;
+    padding: 15px 0;
     margin: 0;
   }
   #doggerblog .box .textbox h2 {
@@ -715,11 +717,38 @@ body .imgbox img {
     justify-content: center;
   }
   #doggerblog .box .minibox .imgbox {
-    width: 400px;
+    width: 380px;
   }
   #doggerblog .box .textbox {
     text-align: center;
     padding: 15px 0;
+    margin: 0;
+  }
+  #doggerblog .box .textbox h2 {
+    font-size: 19px;
+  }
+  #doggerblog .box .textbox h4 {
+    margin: 10px 0 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  #doggerblog .wid h1 {
+    font-size: 30px;
+  }
+  #doggerblog .wid h3 {
+    font-size: 17px;
+    margin: 20px 0 10px;
+  }
+  #doggerblog .box .minibox {
+    display: flex;
+    justify-content: center;
+  }
+  #doggerblog .box .minibox .imgbox {
+    width: 300px;
+  }
+  #doggerblog .box .textbox {
+    text-align: center;
+    padding-top: 15px;
     margin: 0;
   }
   #doggerblog .box .textbox h2 {
