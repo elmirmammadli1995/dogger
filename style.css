@@ -589,6 +589,11 @@ body .imgbox img {
 #questions .imgbox {
   border-radius: 40px;
 }
+@media screen and (min-width: 992px) {
+  #questions .med {
+    align-items: center;
+  }
+}
 @media screen and (max-width: 992px) {
   #questions .wid h1 {
     font-size: 33px;
